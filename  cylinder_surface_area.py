@@ -15,8 +15,8 @@ def main():
     height = float(input("Enter height (cm): "))
 
     # Calculations the surface area and volume of the cylinder
-    surface_area = 2 * math.pi * radius * height + 2 * math.pi * (radius**2)
-    volume = math.pi * (radius**2) * height
+    surface_area = 2 * math.pi * radius * height + 2 * math.pi * (radius ** 2)
+    volume = math.pi * (radius ** 2) * height
 
     # Display the surface area and volume to the user with proper unit
     print("")
